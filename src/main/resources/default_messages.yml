@@ -1,0 +1,5 @@
+logged_id: 'You have been logged in'
+login_failed: 'Login failed. Please try again.'
+login_invalid: 'Invalid login'
+login_required: 'Please login with /login <password>'
+login_timeout: 'Login timeout'

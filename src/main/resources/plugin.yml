@@ -1,0 +1,15 @@
+name: FishAuth
+database: true
+version: 1.0
+depend: [FishDb]
+main: pl.panryba.mc.auth.Plugin
+commands:
+    login:
+        usage: /<command> <haslo>
+        aliases: [loguj, zaloguj, logowanie]
+    register:
+        usage: /<command> <haslo>
+        aliases: [rejestruj, zarejestruj, rejestracja]
+    change_password:
+        usage: /<command> <stare haslo> <nowe haslo>
+        aliases: [zmien_haslo]
